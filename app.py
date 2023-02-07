@@ -13,6 +13,3 @@ def about_template():
 @app.route('/future')
 def future_template():
 	return render_template('future.html', title='Futures')
-
-if __name__ =='__main__':
-	app.run(debug=True)
